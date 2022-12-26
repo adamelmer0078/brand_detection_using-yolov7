@@ -2,7 +2,6 @@
 
 ## Training
 
-
 Single GPU training
 
 ``` shell
