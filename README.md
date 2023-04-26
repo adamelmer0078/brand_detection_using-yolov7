@@ -35,11 +35,11 @@ python train.py --workers 8 --device 0 --batch-size 32 --data data/custom.yaml -
 # finetune p6 models
 python train_aux.py --workers 8 --device 0 --batch-size 16 --data data/custom.yaml --img 1280 1280 --cfg cfg/training/yolov7-w6-custom.yaml --weights 'yolov7-w6_training.pt' --name yolov7-w6-custom --hyp data/hyp.scratch.custom.yaml
 ```
-
 ## Re-parameterization
 
 See [reparameterization.ipynb](tools/reparameterization.ipynb)
-
+ 
+ 
 ## Inference
 
 On video:
